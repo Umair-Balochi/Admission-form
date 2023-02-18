@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body
+{
+    font-size: 14;
+    background: #f2f2f2;
+    background-image: url(./001.png);
+}
+
+.container
+{
+
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top:  5px solid blue;
+    box-shadow: 0 0 7px 2px; rgbe(0,0,0,0.5)
+}
+
+.container h2
+{
+
+    font-size: 24;
+    line-height: 24px
+    padding: 30px;
+    text-align: center;
+}
+
+.input-name
+{
+
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.lock
+{
+
+    padding: 8px 11px;
+}
+
+.name
+{
+
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name span
+{
+
+    margin-left: 35px;
+}
+
+.text-name
+{
+
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name i
+{
+    position:absolute;
+    font-size: 18px;
+    color: blue;
+    border-right: 1px solid #cccccc;
+}
+
+.email
+{
+    padding: 8px;
+}
+
+.text-name, .name
+{
+
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+.text-name:hover, .name:hover
+{
+
+background-color:fafafa;
+
+}
+
+.text-name:focus, .name:focus
+{
+
+border: 2px solid blue;
+}
+
+.redio-button
+{
+
+    margin: 5px;
+}
+
+.country
+{
+
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    color:  #7b7b7b;
+    border-radius: 0px;
+    background: white;
+    appearance: none;
+}
+
+.country:: ::-ms-expand
+{
+
+    display: none;
+}
+
+.country:hover, .country:focus
+{
+
+    color:blue;
+    background: #fafafa;
+    border: 2px solid blue;
+    outline:none
+}
+.arrow
+{
+
+    position: absolute;
+    top: calc(50% - 4px);
+    right: 15px;
+    width: 0px;
+    height: 0px;
+    pointer-events: none;
+    border-width: 8px 5px 0 5px;
+    border-style: solid;
+    border-color: #7b7b7b transparent   transparent   transparent;
+}
+
+.country:hover + .arrow, .country:focus +arrow
+{
+
+    border-top-color: blue;
+}
+
+.check
+{
+
+    margin-right: 15px;
+    position: relative;
+}
+
+.button
+{
+
+    background-color: blue;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none ;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
